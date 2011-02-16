@@ -1,9 +1,9 @@
 <?php
 
-namespace Bundle\TimeBundle;
+namespace EWZ\TimeBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class TimeBundle extends Bundle
+class EWZTimeBundle extends Bundle
 {
 }

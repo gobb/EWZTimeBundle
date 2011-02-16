@@ -1,6 +1,6 @@
 <?php
 
-namespace Bundle\TimeBundle\Templating\Helper;
+namespace EWZ\TimeBundle\Templating\Helper;
 
 use Symfony\Component\Templating\Helper\Helper;
 

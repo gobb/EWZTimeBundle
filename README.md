@@ -5,7 +5,14 @@ Installation
 
 Enable the helper in your app/config/config.yml:
 
-    time.helper: ~ # Enable the helper for use in templates
+    ewz_time: ~ # Enable the helper for use in templates
+
+Add the EWZ namespace to your app/autoload.php:
+
+    $loader->registerNamespaces(array(
+       ...
+       'EWZ' => __DIR__.'/../src',
+    ));
 
 Usage
 -----
