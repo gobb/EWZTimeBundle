@@ -1,8 +1,8 @@
 <?php
 
-namespace EWZ\TimeBundle\Twig\Extension;
+namespace EWZ\Bundle\TimeBundle\Twig\Extension;
 
-use EWZ\TimeBundle\Templating\Helper\TimeHelper;
+use EWZ\Bundle\TimeBundle\Templating\Helper\TimeHelper;
 
 class TimeExtension extends \Twig_Extension
 {

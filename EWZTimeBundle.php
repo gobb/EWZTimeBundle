@@ -1,6 +1,6 @@
 <?php
 
-namespace EWZ\TimeBundle;
+namespace EWZ\Bundle\TimeBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

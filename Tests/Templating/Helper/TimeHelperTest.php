@@ -1,8 +1,8 @@
 <?php
 
-namespace EWZ\TimeBundle\Tests\Templating\Helper;
+namespace EWZ\Bundle\TimeBundle\Tests\Templating\Helper;
 
-use EWZ\TimeBundle\Templating\Helper\TimeHelper;
+use EWZ\Bundle\TimeBundle\Templating\Helper\TimeHelper;
 
 class TimeHelperTest extends \PHPUnit_Framework_TestCase
 {

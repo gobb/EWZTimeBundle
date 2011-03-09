@@ -1,6 +1,6 @@
 <?php
 
-namespace EWZ\TimeBundle\DependencyInjection;
+namespace EWZ\Bundle\TimeBundle\DependencyInjection;
 
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
