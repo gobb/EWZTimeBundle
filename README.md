@@ -3,15 +3,24 @@ Provides a time helper to Symfony2 projects.
 Installation
 ============
 
-Enable the helper in your app/config/config.yml:
+**Add TimeBundle to your application kernel:**
 
-    ewz_time: ~ # Enable the helper for use in templates
+    // app/AppKernel.php
+    public function registerBundles()
+    {
+        return array(
+            // ...
+            new EWZ\Bundle\TimeBundle\EWZTimeBundle(),
+            // ...
+        );
+    }
 
-Add the EWZ namespace to your app/autoload.php:
+**Add the EWZ namespace to your autoloader:**
 
+    // app/autoload.php
     $loader->registerNamespaces(array(
-       ...
-       'EWZ' => __DIR__.'/../src',
+        ...
+        'EWZ' => __DIR__.'/../src',
     ));
 
 Usage
