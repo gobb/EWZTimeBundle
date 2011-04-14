@@ -16,8 +16,8 @@ class TimeExtension extends \Twig_Extension
     public function getFunctions()
     {
         return array(
-            'ago'  => new \Twig_Function_Method($this, 'ago'),
-            'diff' => new \Twig_Function_Method($this, 'diff'),
+            'time_ago'  => new \Twig_Function_Method($this, 'ago'),
+            'time_diff' => new \Twig_Function_Method($this, 'diff'),
         );
     }
 
