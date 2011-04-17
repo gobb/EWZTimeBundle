@@ -28,7 +28,7 @@ class TimeExtension extends \Twig_Extension
 
     public function diff($datetime1, $datetime2 = null)
     {
-        return $this->helper->time($datetime1, $datetime2);
+        return $this->helper->diff($datetime1, $datetime2);
     }
 
     /**
