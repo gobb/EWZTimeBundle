@@ -29,7 +29,9 @@ Usage
 **Use the helper with PHP**
 
     <?php echo $view['time']->ago($dateTime); // returns something like "3 minutes ago" ?>
+    <?php echo $view['time']->diff($dateTime); // returns something like "180" seconds ?>
 
 **Use the helper with twig**
 
-    {{ _view.time.ago(DateTimeObject) }}
+    {{ time_ago(DateTimeObject) }}
+    {{ time_diff(DateTimeObject) }}
