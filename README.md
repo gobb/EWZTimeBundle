@@ -81,13 +81,13 @@ Congratulations! You're ready!
 Here are 2 example to retrieve time from a given datetime, and the difference in seconds:
 
 ``` jinja
-{{ time_ago(DateTimeObject) }}
-{{ time_diff(DateTimeObject) }}
+{{ ewz_time_ago(DateTimeObject) }}
+{{ ewz_time_diff(DateTimeObject) }}
 ```
 
 Or if you're using PHP templates:
 
 ``` php
-<?php echo $view['time']->ago($dateTime); // returns something like "3 minutes ago" ?>
-<?php echo $view['time']->diff($dateTime); // returns something like "180" seconds ?>
+<?php echo $view['ewz_time']->ago($dateTime); // returns something like "3 minutes ago" ?>
+<?php echo $view['ewz_time']->diff($dateTime); // returns something like "180" seconds ?>
 ```

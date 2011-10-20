@@ -16,8 +16,8 @@ class TimeExtension extends \Twig_Extension
     public function getFunctions()
     {
         return array(
-            'time_ago'  => new \Twig_Function_Method($this, 'ago', array('is_safe' => array('html'))),
-            'time_diff' => new \Twig_Function_Method($this, 'diff', array('is_safe' => array('html'))),
+            'ewz_time_ago'  => new \Twig_Function_Method($this, 'ago', array('is_safe' => array('html'))),
+            'ewz_time_diff' => new \Twig_Function_Method($this, 'diff', array('is_safe' => array('html'))),
         );
     }
 
@@ -32,12 +32,10 @@ class TimeExtension extends \Twig_Extension
     }
 
     /**
-     * Returns the name of the extension.
-     *
-     * @return string The extension name
+     * {@inheritDoc}
      */
     public function getName()
     {
-        return 'time';
+        return 'ewz_time';
     }
 }

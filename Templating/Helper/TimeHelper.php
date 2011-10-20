@@ -91,12 +91,10 @@ class TimeHelper extends Helper
     }
 
     /**
-     * Returns the canonical name of this helper.
-     *
-     * @return string The canonical name
+     * {@inheritDoc}
      */
     public function getName()
     {
-        return 'time';
+        return 'ewz_time';
     }
 }
