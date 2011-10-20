@@ -15,7 +15,7 @@ add the following entry to the `deps` in the root of your project file:
 ```
 [EWZTimeBundle]
     git=http://github.com/excelwebzone/EWZTimeBundle.git
-    target=bundles/EWZ/Bundle/EWZTimeBundle
+    target=/bundles/EWZ/Bundle/EWZTimeBundle
 ```
 
 Next, update your vendors by running:
