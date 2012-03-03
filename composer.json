@@ -1,0 +1,25 @@
+{
+    "name": "excelwebzone/time-bundle",
+    "description": "This bundle provides various time functionalities",
+    "keywords": ["time", "date", "ago", "diff"],
+    "homepage": "https://github.com/excelwebzone/EWZTimeBundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael H. Arieli",
+            "email": "excelwebzone@gmail.com",
+            "homepage": "http://excelwebzone.com/"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": "2.*",
+    },
+    "suggest": {
+        "symfony/twig-bundle": "2.*"
+    },
+    "autoload": {
+        "psr-0": { "EWZ\\Bundle\\TimeBundle": "" }
+    },
+    "target-dir": "EWZ/Bundle/TimeBundle"
+}

@@ -1,7 +1,7 @@
 EWZTimeBundle
 =============
 
-This bundle provides easy time helper for Symfony2.
+This bundle provides easy time helper for Symfony applications.
 
 ## Installation
 
