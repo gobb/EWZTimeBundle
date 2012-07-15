@@ -8,7 +8,7 @@ class TimeHelper extends Helper
 {
     /**
      * Returns a single number of years, months, days, hours, minutes or seconds between the current
-     * date and the provided date. If the date occurs in the past (is negative/inverted), it suffixes 
+     * date and the provided date. If the date occurs in the past (is negative/inverted), it suffixes
      * it with 'ago'.
      *
      * @return string
@@ -37,7 +37,7 @@ class TimeHelper extends Helper
     {
         return $count.' '.(($count === 1) ? ($text) : ($text.'s'));
     }
-    
+
     /**
      * Gets the difference of two date values in seconds.
      *
@@ -66,7 +66,7 @@ class TimeHelper extends Helper
     {
         return new \DateTime();
     }
-    
+
     /**
      * Retrieve the DateTime from a number of different formats.
      *
@@ -86,7 +86,7 @@ class TimeHelper extends Helper
         else if (is_numeric($value)) {
             return new \DateTime($value);
         }
-        
+
         throw new \InvalidArgumentException(sprintf('A DateTime could not be retrieved from the value: %s', $value));
     }
 
